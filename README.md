@@ -22,7 +22,7 @@ i recomend using [gnu stow](https://www.gnu.org/software/stow/) for an easier in
 after you have downloaded all the dependencies required just do:
 
 ```sh
-git clone https://github.com/Jugacu/Dotfiles.git ~/Dotfiles
+git clone --recurse-submodules -j8 https://github.com/Jugacu/Dotfiles.git ~/Dotfiles
 ```
 ```sh
 cd ~/Dotfiles && stow .
