@@ -26,3 +26,6 @@ git clone https://github.com/Jugacu/Dotfiles.git ~/Dotfiles
 ```sh
 cd ~/Dotfiles && stow .
 ```
+
+## Preview
+![screenshot](screenshot.png)
