@@ -1,5 +1,7 @@
 personal dotfiles :)
 
+the general theme is rose-pine
+
 some commands wont work outside of kubuntu, trying to getting out of here aaa.
 
 ## Dependencies:
