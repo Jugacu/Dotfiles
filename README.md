@@ -12,7 +12,7 @@ some commands wont work outside of kubuntu, trying to getting out of here aaa.
 * [neovim from source](https://github.com/neovim/neovim)
 * [ripgrep](https://github.com/BurntSushi/ripgrep)
 * [polybar](https://github.com/polybar/polybar)
-* [rofi](https://www.zsh.org/)
+* [rofi](https://github.com/davatorium/rofi)
 * [i3](https://github.com/i3/i3)
 * [picom](https://github.com/yshui/picom)
 * [feh](https://github.com/derf/feh)
