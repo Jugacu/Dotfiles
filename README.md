@@ -8,6 +8,7 @@ some commands wont work outside of kubuntu, trying to getting out of here aaa.
 * [fzf from source](https://github.com/junegunn/fzf)
 * [fzf-tab](https://github.com/Aloxaf/fzf-tab?tab=readme-ov-file#manual)
 * [neovim from source](https://github.com/neovim/neovim)
+* [ripgrep](https://github.com/BurntSushi/ripgrep)
 * [polybar](https://github.com/polybar/polybar)
 * [rofi](https://www.zsh.org/)
 * [i3](https://github.com/i3/i3)
