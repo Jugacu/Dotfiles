@@ -1,3 +1,4 @@
+exec ~/.config/i3/xrandr.sh
 exec_always --no-startup-id feh --bg-scale ~/.config/i3/eyes.png
 exec_always --no-startup-id ~/.config/i3/polybar.sh &
 

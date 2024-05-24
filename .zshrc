@@ -19,6 +19,9 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
+export LANG=en_US.UTF-8
+export LANGUAGE=en
+
 plugins=(
 	git
 	zsh-autosuggestions
