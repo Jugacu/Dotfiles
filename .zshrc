@@ -131,4 +131,7 @@ function glf() { git log --all --grep="$1"; }
 alias pbcopy='xclip -sel clip'
 alias pbpaste='xclip -sel clip -o'
 
+# Ls grouping
+alias ls='ls --color -h --group-directories-first'
+
 # zprof
