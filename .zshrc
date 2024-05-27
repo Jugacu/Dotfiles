@@ -68,7 +68,6 @@ eval "$(pyenv init -)"
 export PATH="/home/julian/.local/share/fnm:$PATH"
 eval "`fnm env`"
 
-
 # GO
 export GOPATH="$HOME/go"
 PATH="$GOPATH/bin:$PATH"
@@ -82,9 +81,6 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-#zoxide
-eval "$(zoxide init zsh)"
 
 # ----------------------
 # Git Aliases
