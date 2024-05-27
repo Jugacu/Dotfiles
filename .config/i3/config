@@ -1,4 +1,6 @@
 exec ~/.config/i3/xrandr.sh
+exec --no-startup-id numlockx on
+exec --no-startup-id redshift -O 4000 -P
 exec_always --no-startup-id feh --bg-scale ~/.config/i3/eyes.png
 exec_always --no-startup-id ~/.config/i3/polybar.sh &
 

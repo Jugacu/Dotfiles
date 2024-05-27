@@ -16,6 +16,7 @@ some commands wont work outside of kubuntu, trying to getting out of here aaa.
 * [i3](https://github.com/i3/i3)
 * [picom](https://github.com/yshui/picom)
 * [feh](https://github.com/derf/feh)
+* [redshift](https://github.com/jonls/redshift)
 * [MartianMono Nerd Font](https://www.nerdfonts.com/font-downloads)
 * [Noto Sans JP Font](https://fonts.google.com/noto/specimen/Noto+Sans+JP)
 
