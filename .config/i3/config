@@ -1,8 +1,6 @@
 exec ~/.config/i3/xrandr.sh
 exec --no-startup-id numlockx on
 exec --no-startup-id redshift -O 4000 -P
-exec_always --no-startup-id feh --bg-scale ~/.config/i3/eyes.png
-exec_always --no-startup-id ~/.config/i3/polybar.sh &
 
 gaps inner 20
 
@@ -217,9 +215,14 @@ for_window [class="(.*join\?action\=join.*|.*zoom.*)"] floating enable
 for_window [class="(.*join\?action\=join.*|.*zoom.*)" title="Zoom - Licensed Account"] floating disable
 for_window [class="(.*join\?action\=join.*|.*zoom.*)" title="Zoom Meeting"] floating disable
 
-exec_always --no-startup-id picom -bc
 
-exec --no-startup-id wmctrl -c Plasma
+exec_always --no-startup-id picom -bc
+exec_always --no-startup-id ~/.config/i3/polybar.sh &
+exec_always --no-startup-id feh --bg-scale ~/.config/i3/eyes.png
+
+focus_follows_mouse no
+
+bindsym Print exec "flameshot gui"
 
 # Run k runner instead of dmenu
 # bindsym $mod+d exec --no-startup-id qdbus org.kde.kglobalaccel /component/krunner org.kde.kglobalaccel.Component.invokeShortcut 'run command'
