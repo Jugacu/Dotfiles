@@ -9,6 +9,7 @@ some commands wont work outside of kubuntu, trying to getting out of here aaa.
 * [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 * [fzf from source](https://github.com/junegunn/fzf)
 * [fzf-tab](https://github.com/Aloxaf/fzf-tab?tab=readme-ov-file#manual)
+* [alacritty](https://github.com/alacritty/alacritty)
 * [neovim from source](https://github.com/neovim/neovim)
 * [ripgrep](https://github.com/BurntSushi/ripgrep)
 * [polybar](https://github.com/polybar/polybar)

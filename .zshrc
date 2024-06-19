@@ -34,6 +34,7 @@ plugins=(
 )
 
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
+fpath+=${ZDOTDIR:-~}/.zsh_functions
 
 source $ZSH/oh-my-zsh.sh
 
@@ -41,17 +42,6 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Bindings
-bindkey -v
-
-# Yank to the system clipboard
-function vi-yank-xclip {
-    zle vi-yank
-   echo "$CUTBUFFER" | xclip -sel clip
-}
-
-zle -N vi-yank-xclip
-bindkey -M vicmd 'y' vi-yank-xclip
-
 bindkey ^R history-incremental-search-backward
 bindkey ^S history-incremental-search-forward
 
@@ -134,4 +124,5 @@ alias pbpaste='xclip -sel clip -o'
 # Ls grouping
 alias ls='ls --color -h --group-directories-first'
 
+alias vi='nvim'
 # zprof
