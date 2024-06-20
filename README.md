@@ -7,6 +7,7 @@ some commands wont work outside of kubuntu, trying to getting out of here aaa.
 ## Dependencies:
 * [zsh](https://www.zsh.org/)
 * [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+* [delta](https://github.com/dandavison/delta)
 * [eza](https://github.com/eza-community/eza)
 * [bat](https://github.com/sharkdp/bat)
 * [fzf from source](https://github.com/junegunn/fzf)
