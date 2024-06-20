@@ -47,6 +47,7 @@ bindkey ^S history-incremental-search-forward
 
 # Styling
 zstyle ':completion:*' menu no
+zstyle ':fzf-tab:complete:bat:*' fzf-preview 'bat --color=always --style=numbers --line-range=:500 $realpath'
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 
 # PYENV
@@ -55,7 +56,7 @@ command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
 # fnm
-export PATH="/home/julian/.local/share/fnm:$PATH"
+export PATH="$HOME/.local/share/fnm:$PATH"
 eval "`fnm env`"
 
 # GO
@@ -66,11 +67,14 @@ PATH="$GOPATH/bin:$PATH"
 export BUN_INSTALL="$HOME/.bun"
 
 # bun completions
-[ -s "/home/julian/.bun/_bun" ] && source "/home/julian/.bun/_bun"
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# BAT
+export BAT_THEME="rose-pine"
 
 # ----------------------
 # Git Aliases
@@ -122,7 +126,13 @@ alias pbcopy='xclip -sel clip'
 alias pbpaste='xclip -sel clip -o'
 
 # Ls grouping
-alias ls='ls --color -h --group-directories-first'
+alias ls='eza --color=always --group-directories-first --icons'
 
+# Neovim
 alias vi='nvim'
+
+# Bat
+alias cat='bat'
+
 # zprof
+
