@@ -60,8 +60,7 @@ export PATH="$HOME/.local/share/fnm:$PATH"
 eval "`fnm env`"
 
 # GO
-export GOPATH="$HOME/go"
-PATH="$GOPATH/bin:$PATH"
+export PATH=$PATH:/usr/local/go/bin
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
