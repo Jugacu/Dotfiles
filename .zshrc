@@ -61,6 +61,7 @@ eval "`fnm env`"
 
 # GO
 export PATH=$PATH:/usr/local/go/bin
+export PATH="$HOME/go/bin:$PATH"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
