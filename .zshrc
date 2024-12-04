@@ -134,5 +134,9 @@ alias vi='nvim'
 # Bat
 alias cat='bat'
 
+# keyboard
+alias asdf="setxkbmap real-prog-dvorak"
+alias aoeu="setxkbmap -layout 'es'"
+
 # zprof
 
