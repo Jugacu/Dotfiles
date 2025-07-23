@@ -215,6 +215,9 @@ for_window [class="(.*join\?action\=join.*|.*zoom.*)"] floating enable
 for_window [class="(.*join\?action\=join.*|.*zoom.*)" title="Zoom - Licensed Account"] floating disable
 for_window [class="(.*join\?action\=join.*|.*zoom.*)" title="Zoom Meeting"] floating disable
 
+for_window [title="Android Emulator"] floating enable
+for_window [class="emulator64-arm"] floating enable
+for_window [class="emulator64-x86"] floating enable
 
 exec_always --no-startup-id picom -bc
 exec_always --no-startup-id ~/.config/i3/polybar.sh &

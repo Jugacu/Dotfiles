@@ -22,6 +22,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 export LANG=en_US.UTF-8
 export LANGUAGE=en
 
+export EDITOR=nvim
+export VISUAL=nvim
+
 plugins=(
 	git
 	zsh-autosuggestions
@@ -75,6 +78,11 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # BAT
 export BAT_THEME="rose-pine"
+
+# Android tooling
+export ANDROID_HOME="$HOME/Android/Sdk"
+export ANDROID_SDK_ROOT="$HOME/Android/Sdk"
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools
 
 # ----------------------
 # Git Aliases
